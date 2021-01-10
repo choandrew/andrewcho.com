@@ -8,10 +8,8 @@ function link(filename, text) {
 
 var bstr = link("index", "About") +
     sep() +
-    link("resume", "Resume") +
+    link("blog", "Blog") +
     sep() +
-//    link("projects", "Projects") +
-//    sep() +
     link("contact", "Contact") +
     sep() + 
     link("photography", "Photography");
