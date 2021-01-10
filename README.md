@@ -1,3 +1,3 @@
 # My Personal Website
 
-[My website](www.andrewucho.com)
+[My website](https://www.andrewucho.com)
