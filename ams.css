@@ -1,0 +1,93 @@
+/*
+ * uchicago web colors from
+ * http://identity.uchicago.edu/guidelines/palette.shtml
+ */
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;   background-color: white;
+  padding: 10px;
+}
+
+div.banner {
+  background-color: #800000;
+  color: white;
+
+}
+
+div.navbar {
+  background-color: #800000;
+  color: black;
+  border-style: thin solid;
+  border-top: thin solid black;
+
+}
+
+
+
+html {
+    overflow-y: scroll;
+}
+
+div.banner, div.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+
+}
+
+div.banner, div.navbar, div.main, div.p, div.body {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+a,  a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+
+a.navbar-link,a.navbar-link:visited {
+  color: white;
+}
+
+a:hover, a.navbar-link:hover {
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  div.navbar {
+    font-size:15px;
+  }
+
+  div.main {
+    margin-right: 0in;
+    padding-left:0%;
+    padding-right:0%;
+  }
+
+  div.banner, div.navbar {
+    margin-right: 0in;
+  }
+
+}
+
+
+
+
+td.quarter {
+  text-align: right;
+  white-space : nowrap;
+}
+
+li {
+  padding-bottom : 1em;
+  font-size : smaller;
+}
+
+pre {
+  font-size : larger;
+}
