@@ -3,7 +3,7 @@ function sep() {
 }
 
 function link(filename, text) {
-    return '<a href="./' + filename + '.html" class="navbar-link">' + text + '</a>';
+    return '<a href="/' + filename + '.html" class="navbar-link">' + text + '</a>';
 }
 
 var bstr = link("index", "About") +
@@ -11,10 +11,10 @@ var bstr = link("index", "About") +
     link("blog", "Blog") +
     sep() +
     link("contact", "Contact") +
-    sep() + 
+    sep() +
     link("photography", "Photography");
 
 
 function banner() {
-    return '<center>' + bstr + '</center>' ;
+    return '<center>' + bstr + '</center>';
 }

@@ -4,14 +4,19 @@
  */
 
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;   background-color: white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; background-color: #fdfdfd;
   padding: 10px;
+  font-size: 13.5pt;
 }
 
 div.banner {
   background-color: #800000;
   color: white;
-
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 41px; 
+  line-height: 0px;
+  font-size: 13pt;
 }
 
 div.navbar {
@@ -19,18 +24,13 @@ div.navbar {
   color: black;
   border-style: thin solid;
   border-top: thin solid black;
-
-}
-
-html {
-    overflow-y: scroll;
+  font-size: 18pt;
 }
 
 div.banner, div.navbar {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-
 }
 
 div.banner, div.navbar, div.main, div.p, div.body {
@@ -40,12 +40,14 @@ div.banner, div.navbar, div.main, div.p, div.body {
 
 }
 
+html {
+    overflow-y: scroll;
+}
 
-a,  a:visited {
+a, a:visited {
   color: blue;
   text-decoration: none;
 }
-
 
 a.navbar-link,a.navbar-link:visited {
   color: white;
@@ -54,7 +56,6 @@ a.navbar-link,a.navbar-link:visited {
 a:hover, a.navbar-link:hover {
   text-decoration: underline;
 }
-
 
 @media only screen and (max-device-width: 480px) {
   div.navbar {
@@ -71,19 +72,4 @@ a:hover, a.navbar-link:hover {
     margin-right: 0in;
   }
 
-}
-
-
-td.quarter {
-  text-align: right;
-  white-space : nowrap;
-}
-
-li {
-  padding-bottom : 1em;
-  font-size : smaller;
-}
-
-pre {
-  font-size : larger;
 }
