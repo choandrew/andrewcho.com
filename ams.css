@@ -33,11 +33,16 @@ div.banner, div.navbar {
   padding: 5px;
 }
 
-div.banner, div.navbar, div.main, div.p, div.body, div.ul, div.table {
+div.banner, div.navbar, div.main, div.p, div.body {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
+}
 
+ul, table{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html {
