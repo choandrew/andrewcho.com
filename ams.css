@@ -19,6 +19,10 @@ div.banner {
   font-size: 13pt;
 }
 
+h1 {
+  text-align: center;
+}
+
 div.navbar {
   background-color: #800000;
   color: black;
