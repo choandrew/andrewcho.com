@@ -4,7 +4,8 @@
  */
 
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; background-color: #fdfdfd;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #fdfdfd;
   padding: 10px;
   font-size: 13.5pt;
 }
@@ -14,7 +15,7 @@ div.banner {
   color: white;
   margin-bottom: 0px;
   margin-top: 0px;
-  height: 41px; 
+  height: 41px;
   line-height: 0px;
   font-size: 13pt;
 }
@@ -31,52 +32,75 @@ div.navbar {
   font-size: 18pt;
 }
 
-div.banner, div.navbar {
+div.banner,
+div.navbar {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
 }
 
-div.banner, div.navbar, div.main, div.p, div.body, ul, li, table{
+div.banner,
+div.navbar,
+div.main,
+div.p,
+div.body,
+ul,
+li,
+table {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
-} 
-
-html {
-    overflow-y: scroll;
 }
 
-a, a:visited {
+html {
+  overflow-y: scroll;
+}
+
+td {
+  text-align: center;
+  min-width: 90px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a,
+a:visited {
   color: blue;
   text-decoration: none;
 }
 
-a.navbar-link,a.navbar-link:visited {
+a.navbar-link,
+a.navbar-link:visited {
   color: white;
 }
 
-a:hover, a.navbar-link:hover {
+a:hover,
+a.navbar-link:hover {
   text-decoration: underline;
 }
 
 @media only screen and (max-device-width: 480px) {
   div.navbar {
-    font-size:15px;
+    font-size: 15px;
   }
 
   div.main {
     margin-right: 0in;
-    padding-left:0%;
-    padding-right:0%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
-  div.banner, div.navbar {
+  div.banner,
+  div.navbar {
     margin-right: 0in;
   }
 
